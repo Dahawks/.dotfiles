@@ -1,0 +1,4 @@
+TAGS='git kde nvim rcm systemrc yay zsh'
+EXCLUDES="README.md"
+
+

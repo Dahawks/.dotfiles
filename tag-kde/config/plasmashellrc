@@ -1,0 +1,80 @@
+[DownloadDialog Settings]
+Height 1080=508
+Width 1920=700
+
+[Open-with settings]
+CompletionMode=1
+History=typ
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_org.kde.latte-dock.desktop,1 services_systemsettings.desktop,1 services_wiznote.desktop,1 services_org.kde.discover.desktop,1 services_fcitx-configtool.desktop
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaTransientsConfig]
+PreloadWeight=42
+
+[PlasmaViews][Panel 104][Defaults]
+thickness=30
+
+[PlasmaViews][Panel 106][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 106][Horizontal1920]
+thickness=40
+
+[PlasmaViews][Panel 107][Defaults]
+thickness=30
+
+[PlasmaViews][Panel 107][Horizontal1920]
+thickness=30
+
+[PlasmaViews][Panel 107][Vertical1080]
+thickness=40
+
+[PlasmaViews][Panel 140][Defaults]
+thickness=30
+
+[PlasmaViews][Panel 2]
+alignment=1
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=36
+
+[PlasmaViews][Panel 21][Defaults]
+thickness=30
+
+[PlasmaViews][Panel 27][Defaults]
+thickness=30
+
+[PlasmaViews][Panel 29][Defaults]
+thickness=30
+
+[PlasmaViews][Panel 29][Horizontal1920]
+thickness=30
+
+[PlasmaViews][Panel 49][Defaults]
+thickness=30
+
+[PlasmaViews][Panel 51][Defaults]
+thickness=30
+
+[PlasmaViews][Panel 51][Horizontal1920]
+thickness=30
+
+[PlasmaViews][Panel 79][Defaults]
+thickness=30
+
+[PlasmaViews][Panel 84][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 84][Horizontal1920]
+thickness=40
+
+[ScreenConnectors]
+0=VGA1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js
