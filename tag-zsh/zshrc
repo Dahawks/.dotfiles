@@ -43,6 +43,7 @@ fi
 
 zplug load
 
+alias .='cd $HOME'
 alias g=k
 alias ll='ls -laa'
 alias pacman='sudo pacman'

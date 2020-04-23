@@ -5,8 +5,7 @@ DefaultProfile=配置方案 1.profile
 Favorites=
 
 [MainWindow]
-Height 1080=556
+Height 1080=752
 State=AAAA/wAAAAD9AAAAAAAAA3IAAAIWAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 1920=861
-Window-Maximized 1080x1920=true
+Width 1920=1156

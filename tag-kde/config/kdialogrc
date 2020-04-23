@@ -1,4 +1,4 @@
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Desktop/hosts,file:$HOME/Desktop/hosts
-Recent URLs[$e]=file:$HOME/Downloads/
+Recent Files[$e]=file:$HOME/Downloads/hosts.txt,file:$HOME/Downloads/hosts.txt
+Recent URLs[$e]=file:///etc/,file:$HOME/Downloads/
 detailViewIconSize=0
