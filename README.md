@@ -1,3 +1,6 @@
+- 恢复配置前先恢复tag-rcm
+> rcup -t tag-rcm
+
 | 命令 | 作用 |
 | :--: | :--: |
 | mkrc | 将文件转换为由rcm管理的隐藏文件 |
@@ -6,8 +9,8 @@
 | rcdn | 删除rcm管理的所有符号链接 |
 
 - tag-git
-- tag-KDE
-- tag-NVIM
+- tag-kde
+- tag-nvim
 - tag-rcm
 - tag-systemrc
 - tag-yay
