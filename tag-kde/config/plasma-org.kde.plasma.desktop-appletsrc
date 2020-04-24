@@ -21,10 +21,10 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=792
-ToolBoxButtonY=36
-positions=1,16,desktop:/KDE配置文件.txt,0,4,desktop:/KDE,0,1,desktop:/Arch-Linux-Course,0,0,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0,3,desktop:/wesnoth.desktop,0,2
+ToolBoxButtonState=top
+ToolBoxButtonX=845
+ToolBoxButtonY=30
+positions=1,16,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0,1,desktop:/Arch-Linux-Course,0,0,desktop:/wesnoth.desktop,0,2
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
@@ -73,6 +73,30 @@ DialogWidth=800
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][2][Applets][26]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][2][Applets][26][Configuration]
+PreloadWeight=55
+
+[Containments][2][Applets][26][Configuration][Appearance]
+dateFormat=isoDate
+showDate=true
+showSeconds=true
+
+[Containments][2][Applets][26][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][2][Applets][27]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][27][Configuration][General]
+expanding=false
+length=535
+
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.appmenu
@@ -100,7 +124,7 @@ DialogHeight=86
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=4;25;3;19;22;20;5;21
+AppletOrder=4;25;3;19;26;27;22;20;5;21
 
 [Containments][6]
 activityId=
@@ -172,4 +196,4 @@ knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.k
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/KDE,0,desktop:/Arch-Linux-Course,0,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0,desktop:/wesnoth.desktop,0,desktop:/KDE配置文件.txt,0
+screenMapping=desktop:/Arch-Linux-Course,0,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0,desktop:/wesnoth.desktop,0

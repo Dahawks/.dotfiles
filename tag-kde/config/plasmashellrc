@@ -8,12 +8,12 @@ PreloadWeight=0
 [PlasmaViews][Panel 2][Defaults]
 maxLength=1920
 minLength=1920
-thickness=36
+thickness=30
 
 [PlasmaViews][Panel 2][Horizontal1920]
 maxLength=1920
 minLength=1920
-thickness=36
+thickness=30
 
 [PlasmaViews][Panel 22][Defaults]
 thickness=30
