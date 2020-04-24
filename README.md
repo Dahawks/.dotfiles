@@ -5,10 +5,10 @@
 | rcup | 同步由rcm管理的隐藏文件 |
 | rcdn | 删除rcm管理的所有符号链接 |
 
-tag-git
-tag-KDE
-tag-NVIM
-tag-rcm
-tag-systemrc
-tag-yay
-tag-zsh
+- tag-git
+- tag-KDE
+- tag-NVIM
+- tag-rcm
+- tag-systemrc
+- tag-yay
+- tag-zsh

@@ -107,6 +107,9 @@ ForegroundNormal=35,38,39
 ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
+[DirSelect Dialog]
+DirSelectDialog Size=796,602
+
 [General]
 BrowserApplication=google-chrome.desktop
 ColorScheme=Breeze

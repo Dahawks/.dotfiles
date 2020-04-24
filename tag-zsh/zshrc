@@ -26,11 +26,11 @@ if [[ -d "${ZPLUG_HOME}" ]]; then
   source "${ZPLUG_HOME}/init.zsh"
 fi
 zplug 'plugins/git', from:oh-my-zsh, if:'which git'
-zplug 'denisidoro/navi'
+#zplug 'denisidoro/navi'
 zplug 'supercrabtree/k'
 zplug 'romkatv/powerlevel10k', use:powerlevel10k.zsh-theme
 zplug "MichaelAquilina/zsh-you-should-use"
-zplug "changyuheng/zsh-interactive-cd"
+#zplug "changyuheng/zsh-interactive-cd"
 #zplug "plugins/vi-mode", from:oh-my-zsh
 zplug 'zsh-users/zsh-autosuggestions'
 #zplug 'zsh-users/zsh-completions', defer:2
@@ -44,11 +44,13 @@ fi
 zplug load
 
 alias .='cd $HOME'
-alias g=k
+#alias g=k
+alias l=k
 alias ll='ls -laa'
 alias pacman='sudo pacman'
 alias zshconfig='nvim $HOME/.zshrc'
 alias nvimconfig='nvim $HOME/.config/nvim/init.vim'
+alias v2raya='sudo v2raya'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
