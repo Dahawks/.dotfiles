@@ -43,6 +43,7 @@ fi
 
 zplug load
 
+setopt nonomatch
 alias .='cd $HOME'
 #alias g=k
 alias l=k
