@@ -6,8 +6,8 @@
 | rcdn | 删除rcm管理的所有符号链接 |
 
 - tag-git
-- tag-KDE
-- tag-NVIM
+- tag-kde
+- tag-nvim
 - tag-rcm
 - tag-systemrc
 - tag-yay
