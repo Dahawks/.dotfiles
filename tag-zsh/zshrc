@@ -28,7 +28,8 @@ fi
 zplug 'plugins/git', from:oh-my-zsh, if:'which git'
 #zplug 'denisidoro/navi'
 zplug 'supercrabtree/k'
-zplug 'romkatv/powerlevel10k', use:powerlevel10k.zsh-theme
+#zplug 'romkatv/powerlevel10k', use:powerlevel10k.zsh-theme
+zplug 'romkatv/powerlevel10k', as:theme, depth:1, use:powerlevel10k.zsh-theme
 zplug "MichaelAquilina/zsh-you-should-use"
 #zplug "changyuheng/zsh-interactive-cd"
 #zplug "plugins/vi-mode", from:oh-my-zsh
