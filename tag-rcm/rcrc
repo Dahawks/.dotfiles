@@ -1,4 +1,4 @@
-TAGS='git kde nvim rcm systemrc yay zsh'
+TAGS='git kde nvim rcm systemrc yay zsh latte-dock'
 EXCLUDES="README.md"
 
 

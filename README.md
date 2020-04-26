@@ -1,3 +1,8 @@
+- 首先先配置yay
+> yay --aururl "https://aur.tuna.tsinghua.edu.cn" --save
+[AUR镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/AUR/)
+- 其次下载rcm-git
+> yay rcm-git 
 - 恢复配置前先恢复tag-rcm
 > rcup -t tag-rcm
 
@@ -15,3 +20,4 @@
 - tag-systemrc
 - tag-yay
 - tag-zsh
+- tag-latte-dock

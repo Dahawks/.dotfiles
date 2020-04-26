@@ -6,30 +6,6 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometriesHorizontal=
-activityId=752e5691-2230-4dc7-bde8-d2c86f692d15
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][General]
-ToolBoxButtonState=top
-ToolBoxButtonX=845
-ToolBoxButtonY=30
-positions=1,16,desktop:/wesnoth.desktop,0,2,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0,1,desktop:/Arch-Linux-Course,0,0
-sortMode=-1
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -69,6 +45,9 @@ plugin=org.kde.plasma.systemloadviewer
 DialogHeight=600
 DialogWidth=800
 
+[Containments][2][Applets][22][Configuration][General]
+swapActivated=false
+
 [Containments][2][Applets][25]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -84,18 +63,11 @@ PreloadWeight=55
 dateFormat=isoDate
 showDate=true
 showSeconds=true
+use24hFormat=2
 
 [Containments][2][Applets][26][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
-
-[Containments][2][Applets][27]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][2][Applets][27][Configuration][General]
-expanding=false
-length=535
 
 [Containments][2][Applets][3]
 immutability=1
@@ -124,7 +96,24 @@ DialogHeight=86
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=4;25;3;19;26;27;22;20;5;21
+AppletOrder=4;25;3;19;26;22;5;21
+
+[Containments][28]
+activityId=0403adfe-77a4-4bc2-9095-29fe67516648
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][28][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=777
+ToolBoxButtonY=30
+
+[Containments][28][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
 
 [Containments][6]
 activityId=
@@ -163,7 +152,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][6][Applets][15][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][6][Applets][16]
 immutability=1
@@ -206,4 +195,4 @@ knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.k
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0,desktop:/wesnoth.desktop,0,desktop:/Arch-Linux-Course,0
+screenMapping=desktop:/wesnoth.desktop,0,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0,desktop:/Arch-Linux-Course,0
