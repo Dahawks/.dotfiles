@@ -57,7 +57,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][26][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][2][Applets][26][Configuration][Appearance]
 dateFormat=isoDate
@@ -98,8 +98,8 @@ DialogWidth=1920
 [Containments][2][General]
 AppletOrder=4;25;3;19;26;22;5;21
 
-[Containments][28]
-activityId=0403adfe-77a4-4bc2-9095-29fe67516648
+[Containments][29]
+activityId=30fcffbc-71d9-477e-8888-821d33c9c503
 formfactor=0
 immutability=1
 lastScreen=0
@@ -107,12 +107,7 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][28][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=777
-ToolBoxButtonY=30
-
-[Containments][28][Wallpaper][org.kde.image][General]
+[Containments][29][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
 
 [Containments][6]
@@ -170,7 +165,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][6][Applets][28][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][6][Applets][7]
 immutability=1
@@ -195,4 +190,4 @@ knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.k
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/wesnoth.desktop,0,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0,desktop:/Arch-Linux-Course,0
+screenMapping=desktop:/Arch-Linux-Course,0,desktop:/wesnoth.desktop,0,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0
