@@ -98,8 +98,8 @@ DialogWidth=1920
 [Containments][2][General]
 AppletOrder=4;25;3;19;26;22;5;21
 
-[Containments][29]
-activityId=30fcffbc-71d9-477e-8888-821d33c9c503
+[Containments][30]
+activityId=1f351044-1028-4981-9288-a10367c3798d
 formfactor=0
 immutability=1
 lastScreen=0
@@ -107,7 +107,7 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][29][Wallpaper][org.kde.image][General]
+[Containments][30][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
 
 [Containments][6]
@@ -179,6 +179,9 @@ plugin=org.kde.plasma.vault
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][6][Applets][9][Configuration]
+PreloadWeight=55
+
 [Containments][6][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
@@ -190,4 +193,4 @@ knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.k
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Arch-Linux-Course,0,desktop:/wesnoth.desktop,0,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0
+screenMapping=desktop:/wesnoth.desktop,0,desktop:/Arch-Linux-Course,0,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0

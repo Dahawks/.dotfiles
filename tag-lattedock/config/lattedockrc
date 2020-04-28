@@ -3,6 +3,7 @@ outlineWidth=1
 
 [ScreenConnectors]
 10=HDMI-1
+11=VGA1
 
 [UniversalSettings]
 badges3DStyle=false
