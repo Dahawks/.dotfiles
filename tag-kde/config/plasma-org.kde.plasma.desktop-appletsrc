@@ -165,7 +165,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][6][Applets][28][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][6][Applets][7]
 immutability=1
@@ -193,4 +193,4 @@ knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.k
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Arch-Linux-Course,0,desktop:/wesnoth.desktop,0,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0
+screenMapping=desktop:/wesnoth.desktop,0,desktop:/Arch-Linux-Course,0,desktop:/chrome-ohnkeagmenangijfjamconenadbbdimp-Default.desktop,0
